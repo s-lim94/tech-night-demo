@@ -1,0 +1,13 @@
+{
+  "name": "tech-night-demo",
+  "owner": {
+    "name": "s-lim94"
+  },
+  "plugins": [
+    {
+      "name": "qa-webshop-audit",
+      "source": "./plugins/qa-webshop-audit",
+      "description": "Browser-driven QA audit: reads a YAML spec, drives Chromium against a target site, captures screenshots, and produces a structured QA report. Designed for live demos."
+    }
+  ]
+}
