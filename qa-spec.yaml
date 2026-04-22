@@ -1,0 +1,16 @@
+# QA Webshop Audit Specification
+# Xsolla Tech Night — May 2026, Kuala Lumpur
+# Mode: Browser-driven (works on SPAs)
+
+target: https://webshop-external-demo.xsolla.site/
+scope: functional
+report_format: markdown
+screenshot_dir: ./qa-screenshots
+
+test_areas:
+  - homepage loads correctly
+  - navigation menu works
+  - product catalog displays items
+  - login with a random username
+  - add to cart flow works
+  - responsive layout (mobile-ready)
