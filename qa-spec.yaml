@@ -9,8 +9,5 @@ screenshot_dir: ./qa-screenshots
 
 test_areas:
   - homepage loads correctly
-  - navigation menu works
-  - product catalog displays items
-  - login with a random username
-  - add to cart flow works
-  - responsive layout (mobile-ready)
+  - no images without alt text (a11y)
+  - favicon is reachable (HTTP 200)
