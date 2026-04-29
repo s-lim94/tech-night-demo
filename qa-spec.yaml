@@ -9,5 +9,6 @@ screenshot_dir: ./qa-screenshots
 
 test_areas:
   - homepage loads correctly
-  - no images without alt text (a11y)
+  - no images without alt text (a11y, hard fail if count > 0)
+  - search UX feels responsive
   - favicon is reachable (HTTP 200)
