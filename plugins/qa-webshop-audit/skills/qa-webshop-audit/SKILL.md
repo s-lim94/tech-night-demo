@@ -53,6 +53,15 @@ Report must include:
 - totals summary (pass/warn/fail)
 - top recommendations (only actionable items)
 
+## Screenshot Evidence Protocol
+
+Before every screenshot:
+1. **Scroll to the evidence** — if the test targets a specific element, scroll it into view (`element.scrollIntoView({ behavior: 'instant', block: 'center' })`). For load/layout tests use `fullPage: true` instead.
+2. **Annotate failures visually** — inject a DOM overlay before shooting, then remove it after:
+   - Failing elements → `outline: 4px solid red; outline-offset: 2px`
+   - Absent features → fixed red banner: `"⚠ <feature> not found in DOM"`
+3. **One screenshot = one story** — a reviewer must be able to understand the result from the screenshot alone, without reading the report.
+
 ## Operational Rules
 
 - Keep runtime practical (target under ~90s for demo runs).
