@@ -5,8 +5,8 @@ A Claude Code [plugin marketplace](https://docs.claude.com/en/docs/claude-code/p
 ## Install
 
 ```
-/plugin marketplace add xsolla/tech-night-demo
-/plugin install qa-webshop-audit@tech-night-demo
+    /plugin marketplace add xsolla/tech-night-demo
+    /plugin install qa-webshop-audit@tech-night-demo
 ```
 
 ## Plugins
